@@ -32,11 +32,12 @@
         height: 80%;
     }
     .carousel,.carousel2,.carousel3{
-        height:94vw;
+        height:51vw;
         width:100%;
         overflow: hidden;
         
         align-content: center;
+
         
     }
     .list,.list2,.list3{
@@ -75,12 +76,7 @@
         left:-30%;
         
     }
-    .carousel .list .item:nth-child(4){
-        height: 45vw;
-        left:0%;
-        
-        
-    }
+    
     .carousel .list .item:nth-child(5){
         height: 50%;
         left:30%;
@@ -146,12 +142,7 @@
         left:-30%;
         
     }
-    .carousel3 .list3 .item3:nth-child(4){
-        height: 45vw;
-        left:0%;
-        
-        
-    }
+    
     .carousel3 .list3 .item3:nth-child(5){
         height: 50%;
         left:30%;
@@ -435,12 +426,63 @@ left:43%
 .frst_sm_banner{
     overflow: hidden;
 }
+@media screen and (min-device-width: 300px) and (max-device-width: 500px) { 
+    .carousel2 .list2 .item2:nth-child(4){
+        height: 37vw;
+        left:0%;
+    }
+    .carousel3 .list3 .item3:nth-child(4){
+        height: 37vw;
+        left:0%;
+         
+    }
+    .carousel .list .item:nth-child(4){
+        height: 37vw;
+        left:0%;
+          
+    }
+    .carousel,.carousel2,.carousel3{
+        height:62vw;
+        width:100%;
+        overflow: hidden;
+        
+        align-content: center;
+        
+        
+    }
+    .pr_btn{
+       border: none;outline: none;background-color:rgb(243, 189, 89) ;padding: 1%;color:white;border-radius: 50px;font-size: 1vh;
+        height: 7vw;
+        width: 23vw;
+    }
+    
+
+}
+@media screen and (min-device-width: 1000px) and (max-device-width: 2000px) { 
+    .carousel2 .list2 .item2:nth-child(4){
+        height: 30vw;
+        left:0%;
+    }
+    .carousel3 .list3 .item3:nth-child(4){
+        height: 30vw;
+        left:0%;
+         
+    }
+    .carousel .list .item:nth-child(4){
+        height: 30vw;
+        left:0%;
+          
+    }
+    .pr_btn{
+        border: none;outline: none;background-color:rgb(243, 189, 89) ;padding: 1%;color:white;border-radius: 50px;font-size: 1.5vw;height:4vw;width:18vw
+    }
+}
 </style>
 <body>
     <div class="main">
         <div class="main_heading">
             <h6 style='font-family:Dancing Script, cursive;text-align: center;margin-bottom:10px;font-size: 2vw;color:grey'>Get Your <span style='font-family: Dancing Script, cursive;'>jwellery</span></h6>
-            <h4 style='font-family:Cinzel;font-size:3vw;padding: 0;margin: 0;margin-bottom: 50px;font-weight: 500;text-align: center;'>Because You Are Pr<span style="position: relative;">i<img class="crown" style="position: absolute;height: 100%;" src="images/crown.png"></span>ncess</h4>
+            <h4 style='font-family:Cinzel;font-size:3vw;padding: 0;margin: 0;margin-bottom: 4vw;font-weight: 500;text-align: center;'>Because You Are Pr<span style="position: relative;">i<img class="crown" style="position: absolute;height: 100%;" src="images/crown.png"></span>ncess</h4>
         </div>
         <div class="main_banner">
             <div style="height: 100%;align-content: center;padding: 5%;padding-top: 0;">
@@ -528,11 +570,11 @@ left:43%
             
 
         </div>
-        <br>
+        
         <div class="categories container-fluid">
             <h1 style="font-family: Dancing Script, cursive;text-align: center;color:grey;margin-bottom: 0;font-size: 2vw;">Our Categories</h1>
             <h4 style="font-family: Cinzel;text-align: center;margin-top:10px;font-size: 2vw;font-weight: 550;">Let's Check Our Categories</h4>
-            <br>
+            
             <div class="row" >
                 <div class="col-lg-3 cat_item col-6" >
                    <div class="cat_img"  style="display: flex;justify-content: flex-end;">
@@ -556,7 +598,7 @@ left:43%
                 </div>
             </div>
         </div>
-        <br>
+        
         <div class="carousel2 container-fluid"  >
             <h1 style="font-family: Dancing Script, cursive;text-align: center;color:grey;margin-bottom: 0;font-size: 2vw;">Our Products</h1>
             <h4 style="font-family: Cinzel;text-align: center;margin-top:10px;font-size: 2vw;font-weight: 550;">Let's Check Our Collections</h4>
@@ -612,7 +654,7 @@ left:43%
             
 
         </div>
-        <br>
+        
         <div class="sm_banner container-fluid">
             <div class="sm_banner_main row">
                 <div class="sm_banner1 col-lg-6">
@@ -636,12 +678,12 @@ left:43%
                 </div>
             </div>
         </div>
-        <br>
+        
         <div class="carousel3 container-fluid"  >
             <h1 style="font-family: Dancing Script, cursive;text-align: center;color:grey;margin-bottom: 0;font-size: 2vw;">Our Products</h1>
             <h4 style="font-family: Cinzel;text-align: center;margin-top:10px;font-size: 2vw;font-weight: 550;">Let's Check Our Collections</h4>
             
-            <br>
+            
             <div class="list3 row" style="margin-top: 3vw;" >
                <div class="item3">
                 
@@ -692,13 +734,13 @@ left:43%
             
 
         </div>
-        <br>
-        <br>
+        
+        
         <div class="products container-fluid">
             <div class="product_btns" >
-                <button style="border: none;outline: none;background-color:rgb(243, 189, 89) ;padding: 1%;color:white;border-radius: 50px;font-size: 1.5vw;height:4vw;width:18vw">Festured Products</button>
-                <button style="border: none;outline: none;background-color:rgb(243, 189, 89) ;padding: 1%;color:white;border-radius: 50px;font-size: 1.5vw;height:4vw;width:18vw">New Arrival</button>
-                <button style="border: none;outline: none;background-color:rgb(243, 189, 89) ;padding: 1%;color:white;border-radius: 50px;font-size: 1.5vw;height:4vw;width:18vw">Latest Collection</button>
+                <button class="pr_btn" >Festured Products</button>
+                <button class="pr_btn" >New Arrival</button>
+                <button class="pr_btn" >Latest Collection</button>
             </div>
             <br>
             <div class="product_list row">
