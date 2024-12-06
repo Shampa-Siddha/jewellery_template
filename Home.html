@@ -426,7 +426,7 @@ left:43%
 .frst_sm_banner{
     overflow: hidden;
 }
-@media screen and (min-device-width: 300px) and (max-device-width: 500px) { 
+@media screen and (min-device-width: 300px) and (max-device-width: 600px) { 
     .carousel2 .list2 .item2:nth-child(4){
         height: 37vw;
         left:0%;
@@ -443,6 +443,38 @@ left:43%
     }
     .carousel,.carousel2,.carousel3{
         height:62vw;
+        width:100%;
+        overflow: hidden;
+        
+        align-content: center;
+        
+        
+    }
+    .pr_btn{
+       border: none;outline: none;background-color:rgb(243, 189, 89) ;padding: 1%;color:white;border-radius: 50px;font-size: 1vh;
+        height: 7vw;
+        width: 23vw;
+    }
+    
+
+}
+@media screen and (min-device-width: 600px) and (max-device-width: 700px) { 
+    .carousel2 .list2 .item2:nth-child(4){
+        height: 35vw;
+        left:0%;
+    }
+    .carousel3 .list3 .item3:nth-child(4){
+        height: 35vw;
+        left:0%;
+         
+    }
+    .carousel .list .item:nth-child(4){
+        height: 35vw;
+        left:0%;
+          
+    }
+    .carousel,.carousel2,.carousel3{
+        height:55vw;
         width:100%;
         overflow: hidden;
         
@@ -1101,24 +1133,6 @@ if(type="next3"){
     list3.appendChild(slideritem3[0])
 }
 }
-let mm=gsap.matchMedia()
-mm.add("(max-width:500px)",()=>{
-    var tl2=gsap.timeline({scrollTrigger:{
-        trigger:".main_heading",
-        
-        start:"50% 0%",
-        end:"50% 10%",
-        
-        
-        
-    }})
-    tl2.to(".crown",{
-    top:'57vw',
-    left:'-52.5vw',
-    transform:'scale(2)',
-    zIndex:'99'
-       
-     },'a')
-})
+
 
 </script>
